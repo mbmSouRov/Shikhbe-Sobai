@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* For bg img darker */
 .carousel-item::before {
   content: "";
   position: absolute;
@@ -12,6 +13,7 @@ body {
   background: #000;
   opacity: 0.7;
 }
+/* For bg screesn height declare in responsive */
 @media screen and (max-width: 500px) {
   .carousel-item img {
     height: 350px;
